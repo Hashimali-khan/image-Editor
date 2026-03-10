@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-primary-color);
+    color: var(--text-primary-color);
+    font-family:poppins, sans-serif;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main section{
+    width: 100%;
+    padding:var(--padding-2xl);
+    display: flex;
+    gap: var(--gutter-l);
+
+}
+
+
+main section .left{
+    display: flex;
+    gap: var(--gutter-l);
+    flex-direction: column ;
+    width: 70%;
+    align-items: center;
+    
+}
+
+main section .right{
+    display: flex;
+    gap: var(--gutter-l);
+    flex-direction: column ;
+    width: 30%;
+    padding: var(--padding-l);
+    border-radius: var(--font-size-l);
+    background-color: var(--bg-secondary-color);
+    
+}
+main section .top{
+   display: flex;
+    gap: var(--gutter-l);
+    align-items: center;
+    margin-bottom: var(--margin-l);
+}
+
+.btn{
+    padding: var(--padding-m) var(--padding-l);
+    background-color: var(--bg--ternary-color);
+    color: var(--text-secondary-color);
+    border: none;
+    box-shadow:inset 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: var(--border-radius-m);
+    cursor: pointer;
+    font-size: var(--font-size-m);
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: var(--bg-active-color);
+    color: var(--text-active-color);
+}
+.btn:active{
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+main section .bottom{
+    margin-top: var(--gutter-l);
+    width: 100%;
+    padding: var(--padding-m);
+    aspect-ratio: 5/3;
+    background-color: var(--bg-secondary-color);
+    border-radius: var(--border-radius-xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main section .bottom .placeholder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.6;
+}
+
+main section .bottom .placeholder i{
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--gutter-m);
+}
+main section .right .filters{
+    display: flex;
+    gap: var(--gutter-m);
+    flex-direction: column ;
+}
+    
+main section .right .filter{
+    width: 100%;
+    font-size: var(--font-size-m);
+}
+main section .right .filter input{
+    width: 100%;
+    background-color: var(--bg--ternary-color);
+     margin-top: var(--gutter-m);
+    color: var(--text-secondary-color);
+    border: none;
+    border-radius: var(--border-radius-m);
+    font-size: var(--font-size-l);
+}
+canvas{
+    
+    max-width: 90%;
+    max-height:80vh;
+    display: none;
+}
+.presets{
+    display: flex;
+    gap: var(--gutter-s);
+    flex-wrap: wrap;
+}

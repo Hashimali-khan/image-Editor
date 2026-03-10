@@ -1,0 +1,43 @@
+:root{
+
+    /* bg color */
+--bg-primary-color: #1e1e1e;
+--bg-secondary-color: #2e2e2e;
+--bg--ternary-color: #efefef;
+--bg-active-color: #3e3e3e;
+
+/* text color */
+--text-primary-color: #ffffff;
+--text-secondary-color: #0e0d0d;
+--text-active-color: #aaaaaa;
+/* paddings */
+--padding-s:0.5rem;
+--padding-m:1rem;
+--padding-l:1.5rem;
+--padding-xl:2rem;
+--padding-2xl:3rem;
+
+/* gutter */
+--gutter-s:0.5rem;
+--gutter-m:1rem;
+--gutter-l:1.5rem;
+--gutter-xl:2rem;
+--gutter-2xl:3rem;
+
+/* font size */
+--font-size-s:0.75rem;
+--font-size-m:1rem;
+--font-size-l:1.5rem;
+--font-size-xl:2rem;
+--font-size-2xl:3rem;
+
+/* border radius */
+--border-radius-s:0.25rem;
+--border-radius-m:0.5rem;
+--border-radius-l:1rem;
+--border-radius-xl:1.5rem;
+--border-radius-2xl:2rem;
+
+
+
+}
